@@ -1,0 +1,13 @@
+{
+  "name": "tools-xpin",
+  "version": "1.0.0",
+  "description": "Number to Chinese Number",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-esm": "rollup --config rollup.config.esm.js",
+    "build-cjs": "rollup --config rollup.config.common.js"
+  },
+  "author": "xpin_1509@163.com",
+  "license": "ISC"
+}
